@@ -4,32 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Todo: link the stylesheet -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Profile</title>
 </head>
 
 <body class="body">
     <div class="card">
-        <div class="img-avatar" align-items="center" justify-content="center"> <!-- Todo: insert an image here and write css for the same --> <img src="image.jpg"
-                alt=""> </div>
+        <div class="img-avatar" align-items="center" justify-content="center" alt=""> </div>
         <div class="card-text" align-items="center" justify-content="center">
             <div class="profile-image"></div>
             <div class="title-total" style="margin: auto;">
-                <div class="title">Your designation</div> <span class="name">Your Name </span>
-                <div class="desc"> Your description </div>
-                <!-- Todo: add next and previous buttons here and write css for them -->
-                <div class="actions">
-                    <button class="prev-button">Previous</button>
-                    <button class="next-button">Next</button>
+                <div class="title" id="mem_title">Team</div> <span class="name" id="mem_name">Avengers</span>                
+                <div class="actions">            
+                    <button id="prev_btn" onclick="showPrev()" class="prev-button button-31">Previous</button>
+                    <button id="next_btn" onclick="showNext()" class="next-button button-31">Next</button>
                   </div>
-                    <div>
-                    </div>
-                    <div> > </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
