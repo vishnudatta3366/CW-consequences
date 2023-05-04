@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+   <header>
+    <nav>
+      <div class="first-logo">
+        <img src="./imgs/innspark.png" alt="" class="cisai">
+        <img src="./imgs/CISAI logo_v3.png" alt="" class="cisai">
+        <img src="./imgs/c_cube.png" alt="" class="vidyut">
+    </div>
+    <div class="second-logo">
+        <img src="./imgs/vidyut.png" alt="" class="vidyut">
+    </div>
+    </nav> 
+  </header>
+  <section class="first"> 
+    <h2>Welcome to the</h2>
+    <div class="typewriter">
+      <h1>"Code With Consequences"</h1>
+    </div>
+    <span style="color: rgb(14, 195, 241); font-size: 50px;">Answer To The Task ↓</span>
+  </section> 
+  <section class="second">
+    <div class="main">
+      <div id="color-sliders">
+        <div>
+          <label for="blue-slider">Size:</label>
+          <input type="range" id="slider" min="18" max="50" value="25" onchange="update(this.value);">
+        </div>
+        <div>
+          <label for="red-slider">Red:</label>
+          <input type="range" id="redSlider" min="0" max="255" value="0" oninput="updateColor()"><br> 
+        </div>
+        <div>
+          <label for="green-slider">Green:</label>
+          <input type="range" id="greenSlider" min="0" max="255" value="0" oninput="updateColor()";><br>
+        </div>
+        <div>
+          <label for="blue-slider">Blue:</label>
+          <input type="range" id="blueSlider" min="0" max="255" value="0" oninput="updateColor()"><br>
+        </div>
+      </div>
+      <div id="wrapper">
+        <div>
+          <span id="work" style="font-size: 18px;">AUM </span><span id="life">NAMAH</span>
+        </div>
+        <div id="balance">SHIVAYA!</div>
+      </div>
+  </div>
+           
+  </section>
+  <script  src="script.js"></script>
+</body>
+</html>
